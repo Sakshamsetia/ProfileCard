@@ -138,7 +138,6 @@ ul{
     width: 50%;
     height: 100%;
     align-self: center;
-    margin-top: 5%;
     border-radius: 30%;
     background-color: black;
     color: yellow;
@@ -148,7 +147,7 @@ ul{
     justify-content: center;
     z-index: 1; 
     position: absolute; 
-    margin-top: 40px;
+    margin-top: 5px;
 }
 
 .topper{
