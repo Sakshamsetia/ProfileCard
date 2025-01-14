@@ -71,18 +71,19 @@ img{
     justify-content: center;
 }
 .name{
+    margin: 0;
     padding-top: 5px;
     width: 320px;
     text-align: center;
     position: relative;
     font-size: 18px;
-    z-index: 3;
+    z-index: 0;
     color: black;
 }
 h3{
     margin: auto;
     margin-top: 20px;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 .data{
     position: absolute;
@@ -147,27 +148,19 @@ ul{
     justify-content: center;
     z-index: 1; 
     position: absolute; 
-    margin-top: 5px;
+    margin-top: 0px;
 }
 
-.topper{
-    height: 40px;
-    width: 100%;
-    order: -1;
-}
-.backbencher{
-    height: 40px;
-    width: 100%;
-    order: 1;
-}
+
 .link{
     position: absolute;
-    bottom: 40px;
+    top: 50px;
     display: flex;
     flex-direction: column;
     align-self: center;
     justify-content:space-around ;
     height: 285px;
+    position: relative;
 }
 .b{
     text-decoration: none;
@@ -190,6 +183,9 @@ ul{
 }
 .b:hover{
     box-shadow: 0 0 8px darkblue;
+}
+#a1{
+    margin-top: 20px;
 }
 #a4{
     cursor: auto;
